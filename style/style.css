@@ -1,3 +1,4 @@
+/* header */
 header{
     position: absolute;
     width: 100%;
@@ -19,18 +20,78 @@ header{
 .container .navbar .my-active-link a{
     color: #00e0d0;
 }
-.section-caurusel{
+
+/* caurusel */
+.my-carousel-item{
     height: 100vh;
 }
-#carouselExampleIndicators{
-    height: 100vh;
+.carousel-indicators .my-indicator{
+    background-color: transparent;
+    height: 10px;
+    width: 10px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+   background-color: #00e0d0;
+   border: solid 1px #00e0d0;
+}
+.my-carousel-caption{
+    top:50%;
+    transform: translateY(-50%);
+    padding: 0 100px;
+}
+.my-carousel-caption h2{
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 25px;
+    font-size: 32px;
+}
+.my-carousel-caption h2::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #00e0d0;
+    margin: 25px auto 0 auto;
+}
+.my-carousel-caption p{
+    padding: 25px;
+    font-size: 14px;
+}
+a.a-learn-more{
+    display: inline-block;
+    border: solid 2px #00e0d0;
+    border-radius: 4px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all .3s;
+}
+a.a-learn-more:hover{
+    text-decoration: none;
+    background-color: #00e0d0;
+    color: white;
 }
 
+/* our story */
+.our-story{
+    background-color: white;
 
+}
+.my-row-story{
+    margin: 70px 0;
+}
+.our-story .our-story-description h3{
 
-
-
-
+}
+.our-story .our-story-description p{
+    white-space: pre-line;
+}
 footer{
     height: 1000px;
 }
