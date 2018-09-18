@@ -111,6 +111,9 @@ section.video .wrapper-video{
 }
 
 /* expertise */
+section.expertise{
+    background-color: white;
+}
 .expertise-row{
     margin-bottom: 70px;
     margin-top: 50px;
@@ -152,16 +155,44 @@ section.video .wrapper-video{
     color: #666666;
     margin-bottom: 40px;
 }
-.border-r-none{
-    border-right: none;
-}
-.border-b-none{
-    border-bottom: none;
-}
 
 /* team */
-section.team{
+section.our-team{
     background-image: url(../images/team-bg.png);
+}
+section.our-team >h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    margin-top: 70px;
+}
+section.our-team >p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #f9f9f9;
+}
+.person{
+    border: solid 1px #7a758e; 
+    height: 100%;
+}
+.wrapper-person .img img{
+    width: 100%;
+    height: 100%;
+}
+.wrapper-person .name{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.wrapper-person .job{
+    font-size: 14px;
+    color: #b3b0bf;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 
