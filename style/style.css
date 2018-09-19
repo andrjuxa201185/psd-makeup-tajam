@@ -159,6 +159,8 @@ section.expertise{
 section.our-team{
     padding: 70px 0;
     background-image: url(../images/team-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 section.our-team >h2{
     text-transform: uppercase;
@@ -203,7 +205,8 @@ section.our-team >p:first-of-type::after{
 }
 .our-team .bottom-p{
     margin-top: 70px;
-
+    font-size: 14px;
+    color: white;
 }
 
 
